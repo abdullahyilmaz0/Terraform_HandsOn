@@ -13,4 +13,6 @@ variable "ec2_ami" {
 variable "s3_bucket_name" {
   default = "abd-test-s3-bucket"
 }
- 
+variable "users" {
+  default = ["santino", "michael", "fredo"]
+}
