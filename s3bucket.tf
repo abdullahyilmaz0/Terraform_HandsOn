@@ -3,3 +3,7 @@ resource "aws_s3_bucket" "firstBucket" {
 
 
 }
+
+output "s3_meta_data" {
+  value = aws_s3_bucket.firstBucket.region
+}
